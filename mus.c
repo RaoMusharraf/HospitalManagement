@@ -395,8 +395,10 @@ void total()
 				            {
     	                        printf("\n     Bed no: %d don't take any medicin!\n\n", z);
 				            }
+				            else{
+				            	printf("     Total price = %d\n",sum+r);
+							}
                             fclose(cftr);
-                            printf("     Total price = %d\n",sum+r);
 		                } 
 				    }
 					printf("\n     Enter Any Digit OR Ctrl+Z for End \n");
@@ -421,7 +423,7 @@ void delet()
 	        }
             else
             {
-            	printf("     Enter Beb No: ");
+            	printf("     Enter Bed No: ");
             	scanf("%d",&z);
 	            while(!feof(cfptr))
         	    {
