@@ -27,3 +27,7 @@ schedules.
 ### Patient Discharge
 When a particular patient discharge, user need to enter **d** to delete the patient records
 and provide him the total charges.
+
+## Usage
+To use the provided code one can just run the provided **_mus.exe_** file by just double clicking it and 
+provide the required fields.
