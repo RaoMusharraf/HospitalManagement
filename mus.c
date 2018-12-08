@@ -105,7 +105,7 @@ void show()
                 }
                 else
                 {
-                    printf("\n     Enter Beb No: ");
+                    printf("\n     Enter Bed No: ");
                     scanf("%d",&z);
                 	non_bed = 1;                
 	                while(!feof(cfptr))
